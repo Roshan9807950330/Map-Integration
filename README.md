@@ -1,13 +1,10 @@
 # Map-Integration
-
 Understanding the concept of API fetching by integrating <a href = "https://console.cloud.google.com/apis/library/maps-backend.googleapis.com?project=maps-api-437207">"Maps Javascript API"</a> provided by <a href="https://console.cloud.google.com/">Google Clouds</a>.
 
 ## Installing / Getting started
-
 A quick introduction of the minimal setup you need to get it running.
 
 ## Get an API key
-
 This section explains how to authenticate your app to the <a href = "https://console.cloud.google.com/apis/library/maps-backend.googleapis.com?project=maps-api-437207">Maps Javascript API</a> using our your own API key.
 <br>Follow these steps to get an API key:
 <br>1. Go to the <a href="https://console.cloud.google.com/">Google Cloud Console</a>.
@@ -52,7 +49,7 @@ This section explains how to authenticate your app to the <a href = "https://con
         d[l]
           ? console.warn(p + " only loads once. Ignoring:", g)
           : (d[l] = (f, ...n) => r.add(f) && u().then(() => d[l](f, ...n)));
-      })({ key: "YOUR_API_KEY", v: "weekly" });
+      })({ key: <code>"YOUR_API_KEY"<code>, v: "weekly" });
     </script>
 ```
 
