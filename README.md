@@ -4,7 +4,7 @@ Understanding the concept of API fetching by integrating <a href = "https://cons
 
 ## Installing / Getting started
 
-<mark>A quick introduction of the minimal setup you need to get it running.</mark>
+A quick introduction of the minimal setup you need to get it running.
 
 ## Get an API key
 
@@ -12,8 +12,8 @@ This section explains how to authenticate your app to the <a href = "https://con
 <br>Follow these steps to get an API key:
 <br>1. Go to the <a href="https://console.cloud.google.com/">Google Cloud Console</a>.
 <br>2. Create or select a project.
-<br>3. Click <b>Continue</b> to enable the API related services.
-<br>4. On the <b>Credentials</b> page, get an <b>API key</b> (and set the API key restrictions).
+<br>3. Click **Continue** to enable the API related services.
+<br>4. On the **Credentials** page, get an **API key** (and set the API key restrictions).
 <br>5. Once you've got an API key, add it to the following snippet by clicking "YOUR_API_KEY".
 
 ```js
