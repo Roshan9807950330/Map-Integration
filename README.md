@@ -1,10 +1,13 @@
 # Map-Integration
+
 Understanding the concept of API fetching by integrating <a href = "https://console.cloud.google.com/apis/library/maps-backend.googleapis.com?project=maps-api-437207">"Maps Javascript API"</a> provided by <a href="https://console.cloud.google.com/">Google Clouds</a>.
 
 ## Installing / Getting started
-A quick introduction of the minimal setup you need to get it running.
+
+==A quick introduction of the minimal setup you need to get it running.==
 
 ## Get an API key
+
 This section explains how to authenticate your app to the <a href = "https://console.cloud.google.com/apis/library/maps-backend.googleapis.com?project=maps-api-437207">Maps Javascript API</a> using our your own API key.
 <br>Follow these steps to get an API key:
 <br>1. Go to the <a href="https://console.cloud.google.com/">Google Cloud Console</a>.
@@ -49,11 +52,12 @@ This section explains how to authenticate your app to the <a href = "https://con
         d[l]
           ? console.warn(p + " only loads once. Ignoring:", g)
           : (d[l] = (f, ...n) => r.add(f) && u().then(() => d[l](f, ...n)));
-      })({ key: =="YOUR_API_KEY"==, v: "weekly" });
+      })({ key: "YOUR_API_KEY", v: "weekly" });
     </script>
 ```
 
 ## Create a div element
+
 For the map to display on a web page, we must reserve a spot for it. Commonly, we do this by creating a named div element.The code below defines an area of the page for your Google map.
 ``` js
 <div id="map"></div>
@@ -61,6 +65,7 @@ For the map to display on a web page, we must reserve a spot for it. Commonly, w
 Set the div width and height to greater than 0px for the map to be visible.
 
 ## Add a map with a marker
+
 Use the following JavaScript code to add a map with a marker on it.
 
 ``` js
