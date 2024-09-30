@@ -4,7 +4,7 @@ Understanding the concept of API fetching by integrating <a href = "https://cons
 
 ## Installing / Getting started
 
-<code>A quick introduction of the minimal setup you need to get it running.</code>
+<mark>A quick introduction of the minimal setup you need to get it running.</mark>
 
 ## Get an API key
 
