@@ -49,7 +49,7 @@ This section explains how to authenticate your app to the <a href = "https://con
         d[l]
           ? console.warn(p + " only loads once. Ignoring:", g)
           : (d[l] = (f, ...n) => r.add(f) && u().then(() => d[l](f, ...n)));
-      })({ key: `"YOUR_API_KEY"`, v: "weekly" });
+      })({ key: ``"YOUR_API_KEY"``, v: "weekly" });
     </script>
 ```
 
